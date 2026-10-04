@@ -22,3 +22,26 @@ Primary vendors to monitor:
 - GitHub
 
 Research notes should prefer official primary sources and record the date checked.
+
+## 2026-10-04 — Google and Microsoft supplementary review
+
+Added Google and Microsoft as supplementary architecture references.
+
+Google findings:
+
+- Treat agent work as a lifecycle that includes evaluation and observability.
+- Keep task-specific operational knowledge modular.
+- Combine agent behavior with tests, linting, evaluation datasets, and other measurable checks where practical.
+
+Microsoft findings:
+
+- Use agents where reasoning or ambiguity adds value.
+- Prefer deterministic code for validation, routing, transformation, and other known-correct operations.
+- Define delegation, approval, and responsibility boundaries explicitly.
+- Do not introduce additional agents without a clear responsibility that justifies orchestration cost.
+
+Decision:
+
+- Do not add Google or Microsoft to the README primary-reference list yet.
+- Keep them under `docs/vendors/` as supplementary sources.
+- Revisit promotion into shared principles after practical validation in child-agent projects.
