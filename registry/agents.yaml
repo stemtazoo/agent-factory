@@ -11,3 +11,15 @@ agents:
     notes:
       - Parent methodology repository.
       - First planned child agent is car-papercraft-agent.
+
+  - name: car-papercraft-agent
+    repository: stemtazoo/car-papercraft-agent
+    purpose: Design, review, and improve buildable vehicle papercraft templates from reference images.
+    status: active
+    architecture_version: "0.1"
+    first_registered: "2026-10-04"
+    last_reviewed: "2026-10-04"
+    notes:
+      - First child agent created from Agent Factory methodology.
+      - Initial design migrated reusable lessons from blog-instagram-prompts/prompts/paper_craft.
+      - Uses separate geometry, workflow, quality, and project-state guidance.
