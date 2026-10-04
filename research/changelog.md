@@ -45,3 +45,29 @@ Decision:
 - Do not add Google or Microsoft to the README primary-reference list yet.
 - Keep them under `docs/vendors/` as supplementary sources.
 - Revisit promotion into shared principles after practical validation in child-agent projects.
+
+## 2026-10-04 — First practical audit feedback
+
+Applied Agent Factory principles to `stemtazoo/python-app-starter-kit`.
+
+Observed result:
+
+- The repository's overall methodology was already sound.
+- The main issue was information placement rather than missing policy.
+- `AGENTS.md` contained many detailed procedures that were also represented in task-specific docs.
+- Refactoring `AGENTS.md` toward priorities, MUSTs, boundaries, and routing reduced always-on content substantially without removing the beginner-support behavior that defined the agent.
+- Adding a docs index clarified which file was the canonical home for each detailed rule.
+- Medium-priority improvements were intentionally deferred after the two highest-value changes were completed.
+
+Promoted lessons:
+
+1. Use **MUST / HOW separation** as an audit test:
+   - always-on instructions hold priorities and non-negotiable behavior
+   - detailed docs hold procedures and examples
+2. Give every detailed rule **one canonical home** and reference it elsewhere instead of duplicating full guidance.
+3. Treat audits as prioritization exercises, not automatic full rewrites. Implement the smallest high-value change first and validate it before expanding.
+
+Not promoted:
+
+- No fixed maximum size or line count for `AGENTS.md`.
+- Size alone is not the target; relevance to most tasks is the deciding factor.
