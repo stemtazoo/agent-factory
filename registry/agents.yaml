@@ -1,0 +1,13 @@
+schema_version: 1
+
+agents:
+  - name: agent-factory
+    repository: stemtazoo/agent-factory
+    purpose: Design, create, audit, and maintain reusable AI-agent repositories.
+    status: active
+    architecture_version: "0.1"
+    first_registered: "2026-10-04"
+    last_reviewed: "2026-10-04"
+    notes:
+      - Parent methodology repository.
+      - First planned child agent is car-papercraft-agent.
