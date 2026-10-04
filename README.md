@@ -54,3 +54,25 @@ The first practical test for this factory will be a vehicle papercraft agent. It
 **Keep always-on instructions small. Load detailed guidance only when it is relevant to the current task.**
 
 See [AGENTS.md](AGENTS.md) for the operating rules used by AI agents working in this repository.
+
+## Primary references
+
+Agent Factory should prefer current official primary sources when reviewing agent architecture, instruction files, skills, custom agents, and related workflows.
+
+### OpenAI
+
+- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+- [Rethinking skills and prompts for GPT-6 Astra](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra)
+
+### Anthropic
+
+- [Claude Code memory and instruction files](https://code.claude.com/docs/en/memory)
+- [Claude Code documentation](https://code.claude.com/docs/en/overview)
+
+### GitHub
+
+- [Support for different types of custom instructions](https://docs.github.com/en/copilot/reference/custom-instructions-support)
+- [Copilot customization cheat sheet](https://docs.github.com/en/copilot/reference/customization-cheat-sheet)
+- [Adding repository custom instructions for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/configure-custom-instructions/add-repository-instructions-in-your-ide)
+
+These references are starting points, not frozen specifications. When guidance changes, record the review date and practical impact under `research/` and `docs/vendors/` before promoting any change into shared principles.
