@@ -23,3 +23,16 @@ agents:
       - First child agent created from Agent Factory methodology.
       - Initial design migrated reusable lessons from blog-instagram-prompts/prompts/paper_craft.
       - Uses separate geometry, workflow, quality, and project-state guidance.
+
+  - name: study-site-audit
+    repository: stemtazoo/study-site-audit
+    purpose: Audit study-site article overlap, learning roles, and improvement history across FE, SG, DS, and GK.
+    status: active
+    architecture_version: "0.1"
+    first_registered: "2026-10-19"
+    last_reviewed: "2026-10-19"
+    notes:
+      - Starts with FE duplicate auditing and a four-theme committed-file inventory.
+      - Separates concise instructions, workflow, acceptance criteria, and project history.
+      - Article-writing rules remain canonical in stemtazoo.github.io.
+      - Initial pilot and limitations are documented in the child repository.
