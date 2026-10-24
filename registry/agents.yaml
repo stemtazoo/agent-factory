@@ -36,3 +36,15 @@ agents:
       - Separates concise instructions, workflow, acceptance criteria, and project history.
       - Article-writing rules remain canonical in stemtazoo.github.io.
       - Initial pilot and limitations are documented in the child repository.
+
+  - name: study-site-analytics
+    repository: stemtazoo/study-site-analytics
+    purpose: Analyze GSC and Bing Webmaster Tools data over time to prioritize and evaluate learning-site improvements.
+    status: active
+    architecture_version: "0.1"
+    first_registered: "2026-10-24"
+    last_reviewed: "2026-10-24"
+    notes:
+      - First-phase design separates concise agent instructions, analysis workflows, acceptance checks, and project state.
+      - Article publication rules remain in stemtazoo.github.io; content overlap audits remain in study-site-audit.
+      - Import and analysis scripts await a real-export pilot.
