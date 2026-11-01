@@ -71,3 +71,27 @@ Not promoted:
 
 - No fixed maximum size or line count for `AGENTS.md`.
 - Size alone is not the target; relevance to most tasks is the deciding factor.
+
+## 2026-11-02 — Repeated UI defects: reuse and executable evidence pilot
+
+Observed in the study site: two teaching aids did not visually distinguish their
+selected examples; the next operation after prediction was unclear; another aid's
+controls overflowed on a smartphone. Existing teaching rules already asked for
+selection state, clear actions and narrow-screen verification. Source review and
+simulated execution had not established real mobile layout.
+
+Decision: apply a small pilot to the three affected articles, instead of adding
+duplicate instructions or migrating every article. Share selection presentation,
+control sizing and next-action association. Keep each algorithm in its article.
+Run actual Jekyll output through Chromium at 320/390/1280px in a separate Actions
+workflow, with screenshots, traces, explicit uncovered articles and manual
+follow-up owned by the PR author/reviewer.
+
+Implementation and current evidence:
+[stemtazoo.github.io PR #595](https://github.com/stemtazoo/stemtazoo.github.io/pull/595).
+The PR is the authority for CI results and remaining checks; this entry does not
+claim deployment, real-device or screen-reader verification.
+
+Method: [repeated-failure validation](../docs/patterns/repeated-failure-validation.md).
+No always-on rules or global templates are expanded. Other registered agents are
+unchanged; apply the method only if their own repeated failures justify it.
