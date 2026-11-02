@@ -44,6 +44,8 @@ Prefer links and short summaries over maintaining multiple full copies of the sa
 - Can deterministic checks replace subjective prompt instructions?
 - Are failure modes documented without forcing every failure example into context?
 
+For recurring defects, use the [repeated-failure validation pattern](../patterns/repeated-failure-validation.md) to choose a small pilot and keep unverified work actionable.
+
 ## Vendor freshness
 
 - Are vendor-specific assumptions still current?
